@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work — Storyteller Studio</title>
+    <meta name="description"
+        content="View our portfolio of wedding films, corporate events and social content.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ========================= LOADER ========================== -->
+    <div class="loader" id="loader">
+        <div class="loader-brand"> <img src="media/logo.jpg" alt="Storyteller Studio logo"> <div><span>STORYTELLER</span> <small>STUDIO</small></div> </div>
+    </div>
+    <!-- ========================= NAVIGATION ========================== -->
+    <header class="navbar" id="navbar"> <a href="index.html" class="logo"> <img src="media/logo.jpg" alt="Storyteller Studio logo"> <span class="logo-type"> <span>STORYTELLER</span> <small>STUDIO</small> </span>
+        </a>
+        <nav class="nav-links" id="navLinks"> <a href="index.html">Home</a> <a href="work.html">Work</a> <a
+                href="about.html">About</a> <a href="contact.html">Contact</a> </nav> <a href="contact.html" class="nav-cta"> Let's
+            Talk </a> <button class="menu-toggle" id="menuToggle" aria-label="Open menu"> <span></span> <span></span>
+        </button>
+    </header>
+    <main>
+        <!-- ========================= PAGE HEADER ========================== -->
+        <section class="page-hero" id="work">
+            <div class="container">
+                <div class="page-hero-content">
+                    <p class="eyebrow reveal"> OUR PORTFOLIO </p>
+                    <h1 class="reveal"> Stories we've <em>captured.</em> </h1>
+                    <p class="hero-description reveal"> A selection of our recent work across weddings, corporate events and social content. </p>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= FEATURED WORK ========================== -->
+        <section class="work section" id="portfolio">
+            <div class="container">
+                <div class="section-heading">
+                    <div class="section-label"> <span>01</span> <span>SELECTED WORK</span> </div>
+                    <h2> A few stories we've <em>captured.</em> </h2>
+                    <p> A selection of our recent work. For more stories, follow us on social media. </p>
+                </div>
+                <div class="featured-grid">
+                    <!-- WORK 01 -->
+                    <article class="work-card work-large" role="button" tabindex="0" data-video-url="https://youtu.be/NBf2qxJAFPQ" data-platform="youtube" aria-label="Play Yuzman and Alia wedding film">
+                        <div class="work-media"> <img src="media/work-01.jpg" alt="Wedding film" loading="lazy">
+                            <div class="work-overlay"> <span>WATCH FILM ↗</span> </div>
+                        </div>
+                        <div class="work-info">
+                            <div> <span class="work-number">01</span>
+                                <h3>Yuzman & Alia</h3>
+                            </div> <span>Wedding Film</span>
+                        </div>
+                    </article>
+                    <!-- WORK 02 -->
+<article class="work-card" role="button" tabindex="0" data-video-url="" data-platform="tiktok" aria-label="Play Corporate Event video">
+    <div class="work-media">
+        <img src="media/work-02.jpg" alt="Corporate event thumbnail" loading="lazy">
+        <div class="work-overlay">
+            <span>WATCH FILM ↗</span>
+        </div>
+    </div>
+    <div class="work-info">
+        <div>
+            <span class="work-number">02</span>
+            <h3>Corporate Event</h3>
+        </div>
+        <span>Events</span>
+    </div>
+</article>
+                    <!-- WORK 03 -->
+                    <article class="work-card" role="button" tabindex="0" data-video-url="media/SocialContenthana2.mp4" data-platform="local" aria-label="Play Brand Campaign video">
+                        <div class="work-media"> <img src="media/work-03.jpg" alt="Social media campaign"
+                                loading="lazy">
+                            <div class="work-overlay"> <span>VIEW PROJECT ↗</span> </div>
+                        </div>
+                        <div class="work-info">
+                            <div> <span class="work-number">03</span>
+                                <h3>Brand Campaign</h3>
+                            </div> <span>Social Content</span>
+                        </div>
+                    </article>
+                </div>
+                <!-- SOCIAL PORTFOLIO -->
+                <div class="social-work">
+                    <p> There's more where that came from. </p>
+                    <h3> Explore our latest work <em>online.</em> </h3>
+                    <div class="social-links"> <a href="https://www.instagram.com/storytellerstudiohq/" target="_blank" rel="noopener"> <span>Instagram</span>
+                            <span>↗</span> </a> <a href="https://www.tiktok.com/@storytellerstudiomy" target="_blank" rel="noopener"> <span>TikTok</span>
+                            <span>↗</span> </a> <a href="https://www.threads.com/@storytellerstudiomy" target="_blank" rel="noopener"> <span>Threads</span>
+                            <span>↗</span> </a> </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= CTA ========================== -->
+        <section class="cta-section section">
+            <div class="container">
+                <h2> Interested in working with us? </h2>
+                <p> Let's create something beautiful for your next project. </p>
+                <a href="contact.html" class="btn btn-light"> Get In Touch </a>
+            </div>
+        </section>
+    </main>
+    <div class="video-modal" id="videoModal" aria-hidden="true" role="dialog" aria-modal="true"
+        aria-labelledby="videoModalTitle">
+        <div class="video-modal-backdrop" data-modal-close></div>
+        <div class="video-modal-content">
+            <div class="video-modal-header">
+                <h2 id="videoModalTitle">Project video</h2>
+                <button class="video-modal-close" type="button" data-modal-close aria-label="Close video">&times;</button>
+            </div>
+            <div class="video-modal-player" id="videoModalPlayer"></div>
+        </div>
+    </div>
+    <!-- ========================= FOOTER ========================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand"> <a href="index.html" class="logo"> <img src="media/logo.jpg" alt="Storyteller Studio logo"> <span class="logo-type"> <span>STORYTELLER</span> <small>STUDIO</small> </span>
+                    </a>
+                    <p> Professional. Trusted. Creative. </p>
+                </div>
+                <div class="footer-links">
+                    <div> <span class="footer-heading"> NAVIGATE </span> <a href="work.html">Work</a> <a
+                            href="about.html">About</a> <a href="contact.html">Contact</a>
+                    </div>
+                    <div> <span class="footer-heading"> FOLLOW </span> <a href="https://www.instagram.com/storytellerstudiohq/" target="_blank">Instagram ↗</a> <a
+                            href="https://www.tiktok.com/@storytellerstudiomy" target="_blank">TikTok ↗</a> <a href="https://www.threads.com/@storytellerstudiomy" target="_blank">Threads ↗</a> </div>
+                    <div> <span class="footer-heading"> CONTACT </span> <a href="mailto:hello@storytellerstudio.com">
+                            hello@storytellerstudio.com </a> <a href="https://wa.me/60123456789" target="_blank">
+                            WhatsApp ↗ </a> </div>
+                </div>
+            </div>
+            <div class="footer-bottom"> <span> © <span id="year"></span> Storyteller Studio. All rights reserved.
+                </span> <span> Johor, Malaysia </span> </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
